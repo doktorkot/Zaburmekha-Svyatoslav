@@ -33,6 +33,7 @@ class Teacher:
 me = Student(name="Svyatoslav")
 teacher = Teacher(name="Oksana Oleksandrivna")
 me.take_exam()
+me.study()
 me.printInfo()
 teacher.teach()
 teacher.evaluate()
